@@ -1,0 +1,330 @@
+body,html{
+  height:100%;
+  color:#fff;
+}
+
+a{
+  cursor: pointer;
+}
+
+a.button{
+  background: #27ae60;
+  font-size: .8em;
+  &:hover{
+    background: #2ecc71;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  margin:0;
+}
+
+img.img-responsive{
+    max-width:100% !important;
+    height:auto;
+    display:block;
+}
+
+img.img-center{
+  margin: 0 auto;
+  text-align: center;
+}
+
+hr{
+  display: block;
+  width: 100px;
+  margin: 30px auto;
+  border-top: 5px solid red;
+  border-color: #D45559;
+}
+
+button,.button{
+  @include transition-property(all);
+    @include transition-duration(.2s);
+}
+
+#gallery img{
+  width:5%;
+  min-width:300px;
+  padding:10px;
+}
+
+.overlay{
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color: #f4f4f4;
+  opacity: .7;
+  filter:alpha(opacity=70);
+  z-index:2;
+}
+
+#footer{
+
+}
+
+.contact-form{
+  margin:0 auto;
+  input[type="text"],
+  input[type="password"],
+  input[type="email"],
+  textarea,
+  select{
+    background: rgba(240,240,240,.7);
+    border:0;
+  }
+
+  textarea{
+    width:100%;
+  }
+
+  input[type="submit"]{
+    width:100%;
+  }
+}
+
+.navigation-container{
+  position: fixed;
+  left:0;
+  top:0;
+  width: 18%;
+  height:100%;
+  background: url("../images/Portraits/Winter/PRINTING-23.jpg") no-repeat center center;
+  @include background-size(cover);
+  text-align: center;
+  z-index: 5;
+  .navigation{
+    z-index:6;
+    position: relative;
+  }
+  .overlay{
+    background:#181818;
+    opacity:.8;
+  }
+  .sep{
+    width:80%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 5px;
+    border: none;
+  }
+  .logo{
+    font-family: "Pompiere", helvetica, sans-serif;
+    font-size: 35px;
+    line-height: 35px;
+    margin-top:30px;
+    padding: 0 10px;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 6;
+    display:none;
+  }
+  ul{
+    position: relative;
+    margin:0;
+    padding:0;
+
+    li{
+      margin:0;
+      padding:20px 10px;
+      width:100%;
+      font-family: "Arimo", helvetica, sans-serif;
+      font-size: 16px;
+      text-transform: uppercase;
+      font-weight: 300;
+      list-style: none;
+      .gallery-menu{
+        display:none;
+      }
+      li{
+        padding: 2px 0;
+        a{
+          color:#7b7b7b;
+        }
+      }
+      a{
+        color:#ddd;
+        width:100%;
+        text-decoration: none;
+        &:hover{
+          color:#f4f4f4;
+        }
+      }
+    }
+  }
+  .social{
+    margin-top: 15px;
+    a{
+      padding:5px;
+    }
+  }
+  #menu-icon{
+    display: none;
+    z-index:6;
+    cursor:pointer;
+  }
+}
+
+.sep{
+  width: 50px;
+  border: 2px solid #f4f4f4; 
+  margin: 15px 0;
+}
+
+
+.main-content{
+  left:18%; 
+  width:82%;
+  position: absolute;
+  color:181818;
+}
+
+.header{
+  background: url('../images/image3.jpg') no-repeat center center;
+  @include background-size(cover);
+  width:100%;
+  height: 300px;
+  
+}
+
+.page-section{
+  width:100%;
+  padding: 25px;
+  h1{
+    //font-family: "Permanent Marker", helvetica, sans-serif;
+  }
+  .container{
+    z-index:3;
+    position: relative;
+  }
+}
+
+#our-story{
+  background: url('../images/image3.jpg') no-repeat center center;
+  @include background-size(cover);
+  background-attachment: fixed;
+  color:#f4f4f4;
+  .sep{
+    width:250px;
+  }
+  .overlay{
+      background:#222222;
+    }
+}
+
+
+#menu{
+  background: url("../images/food/image16.jpg") no-repeat center center;
+  @include background-size(cover);
+  background-attachment: fixed;
+  position: relative;
+  color:#353535;
+  .sep{
+    border-color:#353535;
+    width:133px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  img{
+  }
+}
+
+@media (min-width: 1200px){
+  .container{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .container{
+    width: 100%;
+  }
+  .navigation-container{
+    .logo{
+      font-size:42px;
+      line-height: 45px;
+    }
+  }
+  .navigation{
+    display:block;
+  }
+}
+
+@media only screen and (max-width: 992px){
+  .main-content{
+    left:0;
+    top:60px; 
+    width:100%;
+  }
+  .navigation-container{
+    width:100%;
+    height: 60px;
+    .logo{
+      font-size: 32px; 
+      line-height: 60px;
+      margin: 0;
+      padding:0;
+      //display:block;
+    }
+    .navigation{
+      position:absolute;
+      top:60px;
+      width:100%;
+      padding:10px 0;
+      text-align:center;
+      background: #000;
+    }
+    ul{
+      li{
+        font-size: 18px;
+        line-height: 20px;
+        padding:10px 0;
+      }
+    }
+    .navigation{
+      display:none;
+    }
+    .sep{
+      display:none;
+    }
+    .button, .social{
+      //display:none;
+    }
+    
+    #menu-icon{
+      z-index:7;
+      position: absolute;
+      display:block;
+      right:14px;
+      top:14px;
+    }
+  }
+}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+
+}
+
+
+
