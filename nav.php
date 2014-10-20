@@ -11,13 +11,13 @@
       <li><a href="">Services</a></li>
       <li><a id="gallery-menu-trigger">Gallery</a>
         <ul class="gallery-menu">
-          <li><a href="">Cars</a></li>
-          <li><a href="">Cosplay</a></li>
-          <li><a href="">Couples</a></li>
-          <li><a href="">Events</a></li>
-          <li><a href="">Landscapes</a></li>
-          <li><a href="">Portraits</a></li>
-          <li><a href="">Weddings</a></li>
+          <li><a href="cars.php">Cars</a></li>
+          <li><a href="cosplay.php">Cosplay</a></li>
+          <li><a href="couples.php">Couples</a></li>
+          <li><a href="events.php">Events</a></li>
+          <li><a href="landscapes.php">Landscapes</a></li>
+          <li><a href="portraits.php">Portraits</a></li>
+          <li><a href="weddings.php">Weddings</a></li>
         </ul>
       </li>
       <li><a href="">Facebook</a></li>

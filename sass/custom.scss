@@ -30,6 +30,16 @@ img.img-responsive{
     display:block;
 }
 
+img.img-gallery{
+  max-width:100% !important;
+  max-height: 640px !important;
+  width:auto;
+  display:block;
+  padding:20px 0;
+  opacity: 0;
+  transition: opacity .3s ease-in;
+}
+
 img.img-center{
   margin: 0 auto;
   text-align: center;

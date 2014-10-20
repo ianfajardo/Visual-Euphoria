@@ -20,3 +20,9 @@ $(window).on('resize', function(){
     $(".navigation").hide();
   }
 });
+
+$(document).ready(function(){
+      $("img").bind("contextmenu",function(e){
+        return false;
+      });
+    });
