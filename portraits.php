@@ -13,7 +13,7 @@
             $images = glob($directory.'*');
             foreach($images as $image){
               if(in_array(finfo_file($finfo, $image), $image_types)){
-                echo "<div class='row'><div class='blk-12'><img src='images/spin_load.gif' data-src='" . $image . "' class='img-gallery img-center'></div></div>";
+                echo "<div class='row'><div class='blk-12'><img data-original='" . $image . "' class='lazy img-gallery img-center'></div></div>";
               }
               elseif(is_dir($image)){
                 print_Images($image . '/');

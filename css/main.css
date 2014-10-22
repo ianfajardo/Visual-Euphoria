@@ -790,15 +790,14 @@ img.img-gallery {
   width: auto;
   display: block;
   padding: 20px 0;
-  opacity: 0;
   transition: opacity .3s ease-in; }
 
-/* line 43, ../sass/custom.scss */
+/* line 42, ../sass/custom.scss */
 img.img-center {
   margin: 0 auto;
   text-align: center; }
 
-/* line 48, ../sass/custom.scss */
+/* line 47, ../sass/custom.scss */
 hr {
   display: block;
   width: 100px;
@@ -806,7 +805,7 @@ hr {
   border-top: 5px solid red;
   border-color: #D45559; }
 
-/* line 56, ../sass/custom.scss */
+/* line 55, ../sass/custom.scss */
 button, .button {
   -moz-transition-property: all;
   -o-transition-property: all;
@@ -817,13 +816,13 @@ button, .button {
   -webkit-transition-duration: 0.2s;
   transition-duration: 0.2s; }
 
-/* line 61, ../sass/custom.scss */
+/* line 60, ../sass/custom.scss */
 #gallery img {
   width: 5%;
   min-width: 300px;
   padding: 10px; }
 
-/* line 67, ../sass/custom.scss */
+/* line 66, ../sass/custom.scss */
 .overlay {
   position: absolute;
   top: 0;
@@ -835,10 +834,10 @@ button, .button {
   filter: alpha(opacity=70);
   z-index: 2; }
 
-/* line 83, ../sass/custom.scss */
+/* line 82, ../sass/custom.scss */
 .contact-form {
   margin: 0 auto; }
-  /* line 85, ../sass/custom.scss */
+  /* line 84, ../sass/custom.scss */
   .contact-form input[type="text"],
   .contact-form input[type="password"],
   .contact-form input[type="email"],
@@ -846,14 +845,14 @@ button, .button {
   .contact-form select {
     background: rgba(240, 240, 240, 0.7);
     border: 0; }
-  /* line 94, ../sass/custom.scss */
+  /* line 93, ../sass/custom.scss */
   .contact-form textarea {
     width: 100%; }
-  /* line 98, ../sass/custom.scss */
+  /* line 97, ../sass/custom.scss */
   .contact-form input[type="submit"] {
     width: 100%; }
 
-/* line 103, ../sass/custom.scss */
+/* line 102, ../sass/custom.scss */
 .navigation-container {
   position: fixed;
   left: 0;
@@ -867,22 +866,22 @@ button, .button {
   background-size: cover;
   text-align: center;
   z-index: 5; }
-  /* line 113, ../sass/custom.scss */
+  /* line 112, ../sass/custom.scss */
   .navigation-container .navigation {
     z-index: 6;
     position: relative; }
-  /* line 117, ../sass/custom.scss */
+  /* line 116, ../sass/custom.scss */
   .navigation-container .overlay {
     background: #181818;
     opacity: .8; }
-  /* line 121, ../sass/custom.scss */
+  /* line 120, ../sass/custom.scss */
   .navigation-container .sep {
     width: 80%;
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 5px;
     border: none; }
-  /* line 128, ../sass/custom.scss */
+  /* line 127, ../sass/custom.scss */
   .navigation-container .logo {
     font-family: "Pompiere", helvetica, sans-serif;
     font-size: 35px;
@@ -893,12 +892,12 @@ button, .button {
     position: relative;
     z-index: 6;
     display: none; }
-  /* line 139, ../sass/custom.scss */
+  /* line 138, ../sass/custom.scss */
   .navigation-container ul {
     position: relative;
     margin: 0;
     padding: 0; }
-    /* line 144, ../sass/custom.scss */
+    /* line 143, ../sass/custom.scss */
     .navigation-container ul li {
       margin: 0;
       padding: 20px 10px;
@@ -908,49 +907,49 @@ button, .button {
       text-transform: uppercase;
       font-weight: 300;
       list-style: none; }
-      /* line 153, ../sass/custom.scss */
+      /* line 152, ../sass/custom.scss */
       .navigation-container ul li .gallery-menu {
         display: none; }
-      /* line 156, ../sass/custom.scss */
+      /* line 155, ../sass/custom.scss */
       .navigation-container ul li li {
         padding: 2px 0; }
-        /* line 158, ../sass/custom.scss */
+        /* line 157, ../sass/custom.scss */
         .navigation-container ul li li a {
           color: #7b7b7b; }
-      /* line 162, ../sass/custom.scss */
+      /* line 161, ../sass/custom.scss */
       .navigation-container ul li a {
         color: #ddd;
         width: 100%;
         text-decoration: none; }
-        /* line 166, ../sass/custom.scss */
+        /* line 165, ../sass/custom.scss */
         .navigation-container ul li a:hover {
           color: #f4f4f4; }
-  /* line 172, ../sass/custom.scss */
+  /* line 171, ../sass/custom.scss */
   .navigation-container .social {
     margin-top: 15px; }
-    /* line 174, ../sass/custom.scss */
+    /* line 173, ../sass/custom.scss */
     .navigation-container .social a {
       padding: 5px; }
-  /* line 178, ../sass/custom.scss */
+  /* line 177, ../sass/custom.scss */
   .navigation-container #menu-icon {
     display: none;
     z-index: 6;
     cursor: pointer; }
 
-/* line 185, ../sass/custom.scss */
+/* line 184, ../sass/custom.scss */
 .sep {
   width: 50px;
   border: 2px solid #f4f4f4;
   margin: 15px 0; }
 
-/* line 192, ../sass/custom.scss */
+/* line 191, ../sass/custom.scss */
 .main-content {
   left: 18%;
   width: 82%;
   position: absolute;
   color: 181818; }
 
-/* line 199, ../sass/custom.scss */
+/* line 198, ../sass/custom.scss */
 .header {
   background: url("../images/image3.jpg") no-repeat center center;
   -moz-background-size: cover;
@@ -960,16 +959,16 @@ button, .button {
   width: 100%;
   height: 300px; }
 
-/* line 207, ../sass/custom.scss */
+/* line 206, ../sass/custom.scss */
 .page-section {
   width: 100%;
   padding: 25px; }
-  /* line 213, ../sass/custom.scss */
+  /* line 212, ../sass/custom.scss */
   .page-section .container {
     z-index: 3;
     position: relative; }
 
-/* line 219, ../sass/custom.scss */
+/* line 218, ../sass/custom.scss */
 #our-story {
   background: url("../images/image3.jpg") no-repeat center center;
   -moz-background-size: cover;
@@ -978,14 +977,14 @@ button, .button {
   background-size: cover;
   background-attachment: fixed;
   color: #f4f4f4; }
-  /* line 224, ../sass/custom.scss */
+  /* line 223, ../sass/custom.scss */
   #our-story .sep {
     width: 250px; }
-  /* line 227, ../sass/custom.scss */
+  /* line 226, ../sass/custom.scss */
   #our-story .overlay {
     background: #222222; }
 
-/* line 233, ../sass/custom.scss */
+/* line 232, ../sass/custom.scss */
 #menu {
   background: url("../images/food/image16.jpg") no-repeat center center;
   -moz-background-size: cover;
@@ -995,7 +994,7 @@ button, .button {
   background-attachment: fixed;
   position: relative;
   color: #353535; }
-  /* line 239, ../sass/custom.scss */
+  /* line 238, ../sass/custom.scss */
   #menu .sep {
     border-color: #353535;
     width: 133px;
@@ -1003,40 +1002,40 @@ button, .button {
     margin-right: auto; }
 
 @media (min-width: 1200px) {
-  /* line 250, ../sass/custom.scss */
+  /* line 249, ../sass/custom.scss */
   .container {
     width: 100%; } }
 @media only screen and (max-width: 1200px) {
-  /* line 256, ../sass/custom.scss */
+  /* line 255, ../sass/custom.scss */
   .container {
     width: 100%; }
 
-  /* line 260, ../sass/custom.scss */
+  /* line 259, ../sass/custom.scss */
   .navigation-container .logo {
     font-size: 42px;
     line-height: 45px; }
 
-  /* line 265, ../sass/custom.scss */
+  /* line 264, ../sass/custom.scss */
   .navigation {
     display: block; } }
 @media only screen and (max-width: 992px) {
-  /* line 271, ../sass/custom.scss */
+  /* line 270, ../sass/custom.scss */
   .main-content {
     left: 0;
     top: 60px;
     width: 100%; }
 
-  /* line 276, ../sass/custom.scss */
+  /* line 275, ../sass/custom.scss */
   .navigation-container {
     width: 100%;
     height: 60px; }
-    /* line 279, ../sass/custom.scss */
+    /* line 278, ../sass/custom.scss */
     .navigation-container .logo {
       font-size: 32px;
       line-height: 60px;
       margin: 0;
       padding: 0; }
-    /* line 286, ../sass/custom.scss */
+    /* line 285, ../sass/custom.scss */
     .navigation-container .navigation {
       position: absolute;
       top: 60px;
@@ -1044,18 +1043,18 @@ button, .button {
       padding: 10px 0;
       text-align: center;
       background: #000; }
-    /* line 295, ../sass/custom.scss */
+    /* line 294, ../sass/custom.scss */
     .navigation-container ul li {
       font-size: 18px;
       line-height: 20px;
       padding: 10px 0; }
-    /* line 301, ../sass/custom.scss */
+    /* line 300, ../sass/custom.scss */
     .navigation-container .navigation {
       display: none; }
-    /* line 304, ../sass/custom.scss */
+    /* line 303, ../sass/custom.scss */
     .navigation-container .sep {
       display: none; }
-    /* line 311, ../sass/custom.scss */
+    /* line 310, ../sass/custom.scss */
     .navigation-container #menu-icon {
       z-index: 7;
       position: absolute;
